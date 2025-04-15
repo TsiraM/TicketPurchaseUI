@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const loadingOverlay = document.getElementById('loadingOverlay');
     const orderReference = document.getElementById('orderReference');
     
-    // Your Azure Function URL - replace with your actual endpoint
-    const apiUrl = 'https://nscc-0478676-function-tickethub.azurewebsites.net/api/ProcessTicketPurchase';
+    // Azure api URL 
+    const apiUrl = 'https://tickethub-app.azurewebsites.net';
     
     ticketForm.addEventListener('submit', function(e) {
         e.preventDefault();
